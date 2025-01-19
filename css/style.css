@@ -941,3 +941,8 @@ img {
 .margin_top_90 {
     margin-top: 90px;
 }
+
+#send-email{
+    all:unset;
+    width: 100%;
+}
