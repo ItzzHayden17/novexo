@@ -160,6 +160,7 @@ a,
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
  :focus {
@@ -253,6 +254,7 @@ img {
     width: 170px;
     float: left;
     margin-top: 10px;
+    margin-right: 5px;
 }
 
 .read_bt a {
@@ -278,6 +280,7 @@ img {
 #my_slider .carousel-control-next:focus {
     background: #055eff;
     color: #fff;
+    
 }
 
 #my_slider a.carousel-control-prev {
@@ -291,6 +294,7 @@ img {
     right: 350px;
     top: 100%;
     background-color: #055eff;
+    
 }
 
 #my_slider .carousel-control-prev,
@@ -301,6 +305,7 @@ img {
     opacity: 1;
     font-size: 30px;
     color: #ffffff;
+    border-radius: 50%
 }
 
 .about_section {
@@ -605,6 +610,15 @@ img {
     text-align: center;
     border-radius: 50px;
     margin-left: 30px;
+
+    button {
+        all:unset;
+        width: 100%;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
 }
 
 .subscribe_bt a {
@@ -698,7 +712,7 @@ img {
     float: left;
     padding-top: 10px;
     background-image: url(../images/quote-icon1.png);
-    height: 100px;
+    height: 50px;
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 15px;
@@ -774,6 +788,7 @@ img {
     margin-bottom: 20px;
     padding: 8px 15px;
     border: 1px solid #909090;
+    border-radius: 5px;
 }
 
 .massage-bt {
@@ -785,6 +800,7 @@ img {
     padding: 40px 15px 8px 15px;
     border: 1px solid #909090;
     height: 120px;
+    border-radius: 5px;
 }
 
 .send_btn {
@@ -945,4 +961,9 @@ img {
 #send-email{
     all:unset;
     width: 100%;
+}
+
+.image_6 img{
+    height: 118px;
+    border-radius: 5px;
 }
